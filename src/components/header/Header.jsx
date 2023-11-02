@@ -1,7 +1,7 @@
 import "./header.scss";
 import SearchIcon from "../../icons/Icon-left.svg";
 import BellIcon from "../../icons/bell.svg";
-import Profile from "../../icons/image.png";
+import Profile from "../../icons/Image.png";
 
 const Header = () => {
   return (
