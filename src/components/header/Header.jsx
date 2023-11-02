@@ -1,5 +1,5 @@
 import "./header.scss";
-import SearchIcon from "../../icons/icon-left.svg";
+import SearchIcon from "../../icons/Icon-left.svg";
 import BellIcon from "../../icons/bell.svg";
 import Profile from "../../icons/image.png";
 
