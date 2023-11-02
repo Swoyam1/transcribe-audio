@@ -1,0 +1,22 @@
+.containerWrapper{
+    .container{
+        height: 100vh;
+        display: flex;
+        
+
+        .sideBarWrapper{
+            width: 300px;
+            padding: 24px;
+            background: #FFF;
+        }
+
+        .mainWrapper{
+            width: 100%;
+            background-color: #F9FAFB;
+        }
+    }
+
+    .container.light{
+        opacity: 0.2;
+    }
+}

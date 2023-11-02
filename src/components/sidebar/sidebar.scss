@@ -1,0 +1,104 @@
+.sideBar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .sideBarTop{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        .logoContainer{
+            display: flex;
+            padding: 8px 24px;
+            align-items: center;
+            gap: 4px;
+
+            span{
+                color: #0048AD;
+                font-family: Gotham Pro;
+                font-size: 26px;
+                font-weight: 700;
+                line-height: 24px; /* 100% */
+            }
+        }
+
+        .menuItems{
+            display: flex;
+            padding: 0px 8px;
+            flex-direction: column;
+            gap: 12px;
+            font-size: 14px;
+            font-weight: 500;
+
+            .menuItem{
+                display: flex;
+                padding: 12px 16px;
+                align-items: center;
+                gap: 12px;
+                cursor: pointer;
+                border: 1px solid white;
+
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+
+            }
+            .menuItem:nth-child(1), .menuItem:hover{
+                border-radius: 4px;
+                border: 1px solid #E0EDFF;
+                background: #E0EDFF;    
+            }
+        }
+
+    }
+
+    .sideBarBottom{
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        text-align: center;
+        background-color: #E0EDFF;
+        border-radius: 8px;
+
+        img{
+            width: 24px;
+            height: 24px;
+        }
+
+        .upgrade{
+            font-size: 14px;
+            font-weight: 600;
+            color: #101928;
+        }
+
+        .access{
+            color:  #475367;
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .upgradeButton{
+            padding: 12px 24px;
+            color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+            background: #0048AD;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+
+        }
+
+        
+    }
+}

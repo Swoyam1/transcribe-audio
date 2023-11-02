@@ -1,0 +1,211 @@
+.transcribeWrapper{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    margin: auto;
+
+    .transcribe{
+            display: flex;
+            width: 1000px;
+            height: 680px;
+            padding: 40px 50px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 48px;
+            border-radius: 16px;
+            position: relative;
+            background: #FFF;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+            .top{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h2{
+                    font-weight: 600;
+                }
+
+                img{
+                    width: 24px;
+                    height: 24px;
+                    cursor: pointer;
+                }
+
+                
+            }
+
+            .mid{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+
+               .transcribeLang{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                
+                    h3{
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+
+                    select{
+                        width: 100%;
+                        padding: 16px 24px;
+                        border-radius: 8px;
+                        border: 1px solid #D0D5DD;
+                    }
+
+                    select:focus{
+                        outline: none;
+
+                    }
+                }
+
+                .upload{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 40px 16px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 16px;
+                    border-radius: 8px;
+                    border: 1px dashed #D0D5DD;
+                    background-color: #FFF;
+                    position: relative;
+
+                    .uploadIcon{
+                        width: 49.106px;
+                        height: 48px;
+                        border-radius: 50%;
+                        background-color: #E0EDFF;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+
+                        
+                    }
+                    .custom-file-input::-webkit-file-upload-button {
+                        visibility: hidden;
+                      }
+                      .custom-file-input::before {
+                        position: absolute;
+                        content: '';
+                        display: inline-block;
+                        height: 200px;
+                        width: 200px;
+                        outline: none;
+                        cursor: pointer;
+                        top: 10px;
+                        left: 400px;
+
+                      }
+
+                    .uploadDesc{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 14px;
+
+                        span.color{
+                            color: #0048AD;
+                            font-weight: 600;
+                            cursor: pointer;
+                        }
+                        span{
+                            font-weight: 400;
+                            color: #475367;
+                        }
+
+                        .fileSize,.fileType{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: #98A2B3;
+                        }
+
+                    }
+                }
+
+                .importLink{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                    
+                    h2{
+                        font-weight: 500;
+                        font-size: 14px;
+                    }
+
+                    input{
+                        font-weight: 400;  
+                        padding: 16px 24px;
+                        border-radius: 8px;
+                        border: 1px solid #D0D5DD;
+                    }
+
+                    input:focus{
+                        outline: none;
+
+                    }
+                
+                    
+                }
+
+                .checkBox{
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+
+                    input{
+
+                    }
+
+                    span{
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #101928;
+                    }
+                }
+            }
+
+
+            .bottom{
+                width: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                top: 90%;
+                left: 5%;
+
+                button{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 16px 24px;
+                    border: none;
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    background-color: #D0D5DD;
+                    font-size: 16px;
+                    font-weight: 600;
+                    border-radius: 6px;
+                    
+                    
+                }
+                .highLight{
+                    background-color: rgb(32, 162, 32);
+                }
+                
+
+            }
+        }
+}

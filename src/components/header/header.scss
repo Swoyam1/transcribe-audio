@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 12px 36px;
+
+    .searchBar{
+        display: flex;
+        padding: 10px 12px;
+        flex: 1;
+        gap: 8px;
+        background-color: #F9FAFB;;
+
+        input{
+            width: 100%;
+            border: none;
+            background-color: inherit;
+            font-size: 14px;
+        }
+
+        input:focus{
+            outline: none;
+        }
+    }
+
+    .notifyProfile{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 14px;
+
+        .bellIcon, .profile{
+            display: flex;
+            width: 30px;
+            height: 30px;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .bellIcon{
+            padding: 10px;
+            border-radius: 50%;
+            background-color: #F0F2F5;
+        }
+    }
+    
+}
